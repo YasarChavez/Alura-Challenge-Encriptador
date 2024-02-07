@@ -1,0 +1,79 @@
+* {
+    font-family: "Chakra Petch", sans-serif;
+}
+/* General */
+body {
+    padding: 10px;
+    background-color: #f2f2f2;
+}
+
+/* Logo */
+.logo-img {
+    display: inline-block;
+    /* Alinea verticalmente con el centro */
+    vertical-align: baseline;
+}
+
+.logo-title {
+    display: inline-block;
+    /* Alinea verticalmente con el centro */
+    vertical-align: middle;
+    /* Ajusta el espacio entre la imagen y el título*/
+    margin-left: 5px;
+}
+
+/* Areas de texto */
+#inputText,
+#resultText {
+    width: 300px;
+    height: 400px;
+    color: #666;
+    background-color: #ffffff;
+    /* cursor: not-allowed; */
+    font-style: italic;
+    font-size: 1.2rem;
+    resize: none;
+    overflow: auto;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#inputText::placeholder {
+    /* Color del placeholder */
+    color: #969696;
+    /* Estilo de fuente del placeholder */
+    font-style: italic;
+    font-size: 1.2rem;
+}
+
+#resultText {
+    background: url(../img/Muñeco.png);
+    color: #0a3871;
+    background-repeat: no-repeat;
+    background-size: contain;
+    /* Alinea la imagen de fondo en la parte inferior */
+    background-position: bottom;
+}
+
+/* Boton Encriptar */
+#encryptDecryptBtn {
+    background-color: #0a3871;
+    width: 150px;
+}
+#encryptDecryptBtn:hover {
+    /* background-color: #0a3871; */
+    background-color: #134e97;
+}
+
+/* Boton Intercambiar */
+#switchTextBtn {
+    width: 150px;
+}
+
+/* Iconos Footer */
+.foot {
+    transition: transform 0.5s ease;
+}
+
+.foot:hover {
+    transform: scale(1.5);
+}
